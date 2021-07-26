@@ -7,11 +7,11 @@ import (
 //创建连接
 func Connect(username string,server string) {
 	if len(username) == 0 || len(server) == 0 {
-		model.Infomation.SetText(model.Infomation.Text+"\n"+"your name or server is null")
+		model.Infomation.SetText(model.Infomation.Text+"\n"+"server message:your name or server is null")
 		return
 	}
 	if model.Status.Text == "ok"{
-		model.Infomation.SetText(model.Infomation.Text+"\n"+"Sorry, you cannot repeat the connection")
+		model.Infomation.SetText(model.Infomation.Text+"\n"+"server message:Sorry, you cannot repeat the connection")
 		return
 	}
 	ws.CareatCon(username,server)
@@ -20,7 +20,11 @@ func Connect(username string,server string) {
 //发送消息
 func WriteMessage(username string,message string) {
 	if len(username) == 0 || len(message) == 0 {
-		model.Infomation.SetText(model.Infomation.Text+"\n"+"your name or message is null")
+		model.Infomation.SetText(model.Infomation.Text+"\n"+"server message:your name or message is null")
+		return
+	}
+	if ws.Conntion == nil {
+		model.Infomation.SetText(model.Infomation.Text+"\n"+"server message:Please connect first")
 		return
 	}
 	ws.Write(username,message)
@@ -29,7 +33,7 @@ func WriteMessage(username string,message string) {
 //断开连接
 func DisConnect(username string) {
 	if model.Status.Text != "ok"{
-		model.Infomation.SetText(model.Infomation.Text+"\n"+"you are not connected yet")
+		model.Infomation.SetText(model.Infomation.Text+"\n"+"server message:you are not connected yet")
 		return
 	}
 	ws.DisCon(username)

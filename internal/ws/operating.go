@@ -18,7 +18,7 @@ func CareatCon(username string,server string) {
 	conn, _, err := websocket.DefaultDialer.Dial(server, header)
 	if err!=nil{
 		fmt.Println(err)
-		model.Infomation.SetText(model.Infomation.Text+"\n"+"Sorry,error in connecting")
+		model.Infomation.SetText(model.Infomation.Text+"\n"+"server message:Sorry,error in connecting")
 		return
 	}
 	Conntion = conn
