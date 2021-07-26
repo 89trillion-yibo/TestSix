@@ -60,28 +60,32 @@
 初始界面
 
 
-
+<img width="800" alt="主界面" src="https://user-images.githubusercontent.com/87186547/126996512-63f04cc6-cb8a-4d5a-ac59-0067ed650db1.png">
 
 
 用户连接
 
-<img src="/Users/huangyibo/Documents/用户连接.png" alt="image-20210726205350625" style="zoom:50%;" />
+<img width="800" alt="用户连接" src="https://user-images.githubusercontent.com/87186547/126996550-7f858356-5b60-4228-8aa9-9faf6c50187d.png">
+
 
 用户发消息
 
-<img src="/Users/huangyibo/Documents/用户发消息.png" alt="image-20210726205719264" style="zoom:50%;" />
+<img width="800" alt="用户发消息" src="https://user-images.githubusercontent.com/87186547/126996574-a42b27bd-6c23-4f3b-ba84-e79f811d81a6.png">
+
 
 重复连接
 
-<img src="/Users/huangyibo/Documents/重复连接.png" alt="image-20210726205837180" style="zoom:50%;" />
+<img width="800" alt="重复连接" src="https://user-images.githubusercontent.com/87186547/126996593-fa3d75e6-26a6-40b3-a796-902fba9566a2.png">
+
 
 断开连接
 
-<img src="/Users/huangyibo/Documents/断开连接.png" alt="image-20210726210046633" style="zoom:50%;" />
+<img width="800" alt="断开连接" src="https://user-images.githubusercontent.com/87186547/126996621-0c612a01-1d5a-4fea-a9ef-6126d26c9285.png">
+
 
 未连接发消息
 
-<img src="/Users/huangyibo/Documents/未连接发消息.png" alt="image-20210726210844213" style="zoom:50%;" />
+<img width="799" alt="未连接发消息" src="https://user-images.githubusercontent.com/87186547/126996657-bbfeb228-a93b-4497-b802-72934fab65ae.png">
 
 
 
@@ -103,4 +107,5 @@ github.com/gorilla/websocket
 
 ### 7.流程图
 
-<img src="/Users/huangyibo/Downloads/未命名文件 (8).jpg" alt="未命名文件 (8)" style="zoom:67%;" />
+![未命名文件 (8)](https://user-images.githubusercontent.com/87186547/126996721-5235c44d-ca10-4389-aced-c6a1f86f5433.jpg)
+
